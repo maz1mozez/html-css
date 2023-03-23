@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, gray, rgb(99, 99, 99));
+            margin: 0px;
+        }
+        header {
+            width: 600px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px
+
+        }
+        nav {
+            background-color: rgb(102,102,102);
+            padding: 3px;
+            box-shadow: 6px 5px 19px 6px rgba(0,0,0,0.9);
+            
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 5px;
+        
+        }
+
+        article > aside {
+            background-color: rgb(165,165,165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        p#rodapecanal > a {
+            text-decoration: none;
+            color: white;
+        }
+        p#rodapecanal > a:hover {
+            text-decoration: underline;
+        }
+        /*
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            margin: 10px;
+            border-radius: 50%;
+        }
+        */
+    </style>
+    <title>Grouping Tags</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>  
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere hic id praesentium sapiente necessitatibus quas fugit doloribus sed quasi, ratione voluptatem eos aspernatur, vitae numquam harum pariatur odit, consequuntur amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dicta nemo sequi at reprehenderit, illum labore minus ad quasi mollitia totam. Id tempore libero aliquam. A tempora autem inventore cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloribus inventore omnis voluptatibus nulla voluptate, sint aperiam quibusdam? Distinctio dolore iusto repudiandae illo maiores reprehenderit nostrum tenetur velit vero veniam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore labore iste, at, quisquam dignissimos dicta quia fugit suscipit tenetur similique magni vitae. Maiores omnis dicta necessitatibus neque! Et, nemo quidem?</p>
+                <aside>
+                    <p>Artigo escrito por José da silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p id="rodapecanal">Desenvolvido pelo <a href="https://youtube.com/CursoEmVideo" target="_blank">CursoEmVideo</a></p>
+    </footer>
+    <!--<div id="bola"></div>-->
+</body>
+</html>

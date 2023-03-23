@@ -1,0 +1,182 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: customFonts;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div#cab {
+    background-image: linear-gradient(to bottom, #288C54,#1A5C38);
+    height: 400px;
+    width: 1900px;
+    margin: -21px 0px 0px -9px;
+}
+
+h1#cabecalho {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 21px 0px 12px 0px;
+}
+
+p#extracab {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 42px 0px 0px 0px;
+}
+
+nav#links {
+    margin: -23px 0px 0px 0px;   
+}
+
+.link {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightgreen; 
+    margin: 2px 0px 0px 8px;
+}  
+
+nav#links > a:hover {
+    background-color: lightgreen;
+    border-radius: 5px;
+    color: green;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    height: 2315px;
+    width: 842px;
+    margin: 2px 0px 0px 517px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 4px 1px 9px 1px rgba(0, 0, 0, 60%);
+}
+
+.titulo {
+    color: black;
+    font-family: customFonts;
+    margin: 4px 0px 0px 2px;
+}
+
+p {
+    text-indent: 10px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.destacado {
+    background-color: rgba(144, 238, 144, 0.548);
+    color: green;
+    font-family: customFonts;
+    margin: 46px 14px 0px 10px;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+mark {
+    background-color: lightgreen;
+}
+
+strong {
+    color: green;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+source#imagem {
+    margin: 0px 0px 0px 20px;
+}
+
+img#bugdroid {
+    margin: 0px 0px 0px 250px;
+}
+
+iframe {
+    margin: 10px 0px 0px 150px;
+    background-color: #1A5C38;
+}
+
+h3#aprendermais {
+    color: white;
+    background-color: #1A5C37;
+    text-align: left;
+    margin: 10px 26px 1px 27px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+p#aprendermais2 {
+    color: black;
+    background-color: #83E1AD;
+    margin: -1px 26px 1px 27px;
+    height: 500px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.596);
+}
+
+ol#lista1 {
+    margin: -428px 0px 0px 13px;
+    color: black;
+}
+
+ol#lista2 {
+    margin: -144px 0px -2px 354px;
+    color: black;
+}
+
+.itemlista1 {
+    color: black;
+
+}
+
+p#dentrodacaixa {
+    text-align: center;
+    margin: 7px 15px 0px 0px;
+    color: black;
+
+}
+
+span {
+    margin: 0px 440px 0px 0px;
+}
+
+p#dentrodacaixa2 {
+    color: black;
+    margin: 14px 27px -4px 25px;
+}
+
+a#url1 {
+    color: #1A5C37;
+}
+
+a#url1:hover {
+    text-decoration: underline;
+    color: #288C54;
+}
+
+p#conclusao {
+    color: black;
+    margin: 185px 10px 0px 10px;
+}
+
+p#rodape {
+    font-size: bold;
+    color:white;
+    background-color: black;
+    text-align: center;
+    margin: 29px 0px -20px -8px;
+    height: 25px;
+    width: 1903px;
+   /* 29px 0px -20px -11px; 1850 */
+}
+

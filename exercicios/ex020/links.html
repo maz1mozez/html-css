@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #F2F2F2;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+
+        .especial {
+            background-color: #F29F05;
+
+        }
+
+        .especial::before {
+            content: '⇒ ';
+        }
+
+        .especial::after {
+            content: ' ⇐ [importante!]';
+        }
+
+        .especial::after {
+            text-decoration: none;
+            font-weight: normal;
+            color: #F2F2F2;
+        }
+
+
+        p {
+            font-weight: normal;
+        }
+        p#p1 {
+            font-weight: bold;
+        }
+
+        .padrao::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: #F29F05;
+        }
+
+        ul {
+           color: #D93D04;
+        }
+
+        h1,h3 {
+           color: #D93D04;
+        }
+
+        h2#test > p {
+            display: none;
+        }
+
+        h2#test:hover > p {
+            display: block;
+            font-weight: normal;
+            font-size: small;
+            color: gray;
+        }
+
+        h1#h1principal {
+            text-decoration: underline;
+        }
+
+        
+    </style>
+    <title>Links</title>
+</head>
+<body>
+    <h1 id="h1principal">Personalizando links</h1>
+    <h2 id="test":hover>Olá seja bem vindo a NotJustCoders!<p>(Não apenas codificadores)</p></h2>
+    <h3>Nossa história:</h3>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At accusamus voluptatum harum necessitatibus, laborum deleniti repudiandae praesentium. Optio assumenda dolor fugit amet perspiciatis officia, veniam porro adipisci, animi fugiat aliquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quod impedit ab veritatis aliquid reiciendis, pariatur veniam magni, placeat qui, molestiae sed exercitationem! Doloremque tempore ad maiores laborum provident dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iusto quam magnam sapiente praesentium, necessitatibus perferendis, autem quos quia pariatur eveniet laborum rerum voluptatem illum ipsum? Sint adipisci numquam iste. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia inventore laudantium minima enim dolorem quo eius natus, ex minus quod deserunt, beatae quaerat maiores itaque aspernatur porro, obcaecati nostrum. Hic.</p>
+
+    <p id="p1">Redes sociais vizinhas:</p>
+    <ul type="square">
+        <li><a href="https://gustavoguanabara.github.io" target="_blank" class="padrao">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/Cursoemvideo/"target="_blank" class="especial">Canal do Youtube</a></li>
+        <li><a href="https://www.cursoemvideo.com"target="_blank" class="especial">Site do CursoemVideo</a></li>
+    </ul>
+
+</body>
+</html>

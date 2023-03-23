@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+body {
+    background-image: linear-gradient(to right, #383E42,#46877F);
+    height: 100%;
+}
+
+main {
+    background-color: grey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #303030;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #2A292A;
+    text-align: center;
+    text-shadow: 1px 1px 0px #4e4e4e;
+}
+
+h2 { 
+    color: rgba(41, 41, 41, 0.719);
+}
+
+
+p {
+    color: whitesmoke;
+    font-family: sans-serif,'fantasy';
+    text-align: justify;    
+}
+
+mark {
+    background-color: gainsboro;
+}
+
+
+
+
