@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplode de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">     
+    <fieldset>
+        <!--Radios sempre colocar o mesmo name-->
+        <legend>Sexo</legend>
+
+        <input type="radio" name="sexo" id="imas" checked  value="M"> <label for="ifem">Masculino</label><br>
+        <input type="radio" name="sexo" id="ifem" value="F"> <label for="imas">Feminimo</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Esportes favoritos</legend>
+
+        <input type="checkbox" name="esfut" id="iesfut" checked> <label for="iesfut"> Futebol</label><br>
+
+        <input type="checkbox" name="esbas" id="iesbas" checked> <label for="iesbas">Basquete</label><br>
+
+        <input type="checkbox" name="esten" id="iesten"><label for="iesten"> Tenis</label><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Confirmação</legend>
+        <h2>Tem certeza que deseja fazer esse formulário?</h2>
+        <input type="radio" name="con" id="icon" checked value="S"> Sim<br>
+        <input type="radio" name="con" id="inocon" checked value="N"> Não<br>
+    </fieldset>
+
+    <fieldset>
+        <legend>Gostos</legend>
+        <input type="checkbox" name="mac" id="imac"> Macarrão<br>
+        <input type="checkbox" name="cer" id="icer"> Cereja<br>
+        <input type="checkbox" name="uva" id="iuva"> Uva<br>
+        <input type="checkbox" name="agu" id="iagu" checked> Água<br>
+        <input type="checkbox" name="sag" id="isag"> Ságu<br>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</form>
+    
+</body>
+</html>
