@@ -19,7 +19,7 @@ TV: acima de 1201
     }
 
    body { 
-    background-image: url('../imagens/back-print.jpg'); /*Desnecessário*/
+    background-image: url('../imagens/back-print.jpg'); /*Desnecessário por que a impressão deve ser em branco */
     
    }  
 
